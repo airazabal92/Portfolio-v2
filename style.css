@@ -1,0 +1,139 @@
+/* Introduction text  */
+
+a:hover {
+  color: #bdcfcf;
+  text-decoration: none;
+}
+
+a {
+  color: #656565;
+}
+
+#aboutSub {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#skillsInfo {
+  width: 65%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#skillsIntro {
+  text-align: center;
+  color: #678688;
+  font-size: 18px;
+}
+
+h1 span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+h1 span {
+  font-family: "Marck Script", cursive;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 280;
+}
+
+h3 {
+  font-weight: 280;
+  color: #656565;
+}
+
+#subHeader {
+  width: 100%;
+}
+
+.fontCustomColor {
+  color: #678688;
+}
+
+/* Navbar */
+.uk-navbar {
+  margin-left: -47px;
+}
+
+/* Profile Image */
+#imageProfile {
+  position: relative;
+  left: 10%;
+  top: -89px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: 6px solid #f8f8f8;
+  outline-offset: -3px;
+}
+
+/* Basic Info*/
+
+#basicInfo {
+  width: 45%;
+  margin-left: 50%;
+  margin-top: 2%;
+}
+/* About Me Section */
+
+#aboutSection {
+  margin-top: -171px;
+}
+
+#profilePicture {
+  margin-left: 32%;
+}
+
+#aboutMe {
+  max-width: 92%;
+  margin-left: -16%;
+}
+
+#devTable {
+  text-align: center;
+  font-size: 13px;
+}
+
+#devTable td span {
+  background-color: #e9efef;
+}
+
+.skillsText {
+  font-size: 13px;
+}
+
+.cardSkillWidth {
+  max-width: 120px;
+  min-width: 120px;
+}
+
+#adobeText {
+  line-height: -1.5 !important;
+}
+
+#portfolio {
+  background-color: #bdcfcf;
+}
+
+#projects {
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 640px) {
+  #profilePicture {
+    margin: auto;
+  }
+
+  #aboutMe {
+    margin: auto;
+  }
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navitation bar -->
+    <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-center">
+
+                <div class="uk-navbar-center-left">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">About</a></li>
+                            <li><a href="#">Skills</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="uk-navbar-item uk-logo" href="#">Ai</a>
+                <div class="uk-navbar-center-right">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <!-- Intro text-->
+    <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+        data-src="https://i.imgur.com/joY9wei.jpg" uk-img style="height:550px; background-position: bottom;
+        ">
+        <h1>Hello! I'm <br><span id="subHeader"></span></h1>
+    </div>
+
+    <!-- Profile Image -->
+    <img id="imageProfile"
+        data-src="https://avatars3.githubusercontent.com/u/60761756?s=460&u=419830dd8866a10759da6bc28d4add9c398578c5&v=4"
+        width="15%" alt="Amanda Irazabal profile image" uk-img>
+
+    <!-- About Section-->
+    <div id="aboutSection" class=" uk-column-span uk-background-image@m uk-background-cover"
+        style="width: 100%; height: 400px; background-image: url(https://i.imgur.com/IM845T4.jpg);">
+
+        <div id="basicInfo" class="uk-card uk-card-default">
+            <div class=" uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <span uk-icon="icon: info"></span>
+                    </div>
+                    <div class="uk-width-expand">
+                        <h2 class="uk-card-title uk-margin-remove-bottom">Full Stack Developer
+                        </h2>
+                        <p id="aboutSub" class="uk-text-meta uk-margin-remove-top fontCustomColor">UX/UI
+                            Design
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <p>I have an eye for UX/UI design and am passionate about combining aesthetics, usability, and
+                    functionality to create visually stunning and user-friendly websites and applications. I’m a self
+                    motivated, organized, quick-learning team player that will make a great addition to any team. </p>
+            </div>
+            <div class="uk-card-footer uk-text-right">
+                <a href="https://github.com/airazabal92" class="uk-icon-button" uk-icon="github"></a>
+                <a href="" class="uk-icon-button" uk-icon="linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <hr class="uk-divider-icon"> -->
+
+    <!--Skills-->
+
+    <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+
+            <!-- <div style="text-align:center"><i class="fas fa-align-center fa-lg"></i>
+            </div> -->
+
+            <h3 class="uk-text-center"> SKILLS </h3>
+            <hr class="uk-divider-icon">
+
+            <br>
+
+            <div id="skillsInfo" class="uk-card uk-card-default uk-card-body">
+                <p>I'm a recent graduate of the Rutgers Coding Bootcamp, where I've polished skills in
+                    HTML, CSS, Javascript
+                    and the MERN (Mongo, Express, React & Node) stack. I've also had three years of experience in
+                    marketing
+                    at Porcelanosa, where I worked on national campaigns along with updating and maintaining the
+                    corporate
+                    website.</p>
+                <p id="skillsIntro">I have
+                    experience in the following:</p>
+            </div>
+
+
+
+
+            <div class="uk-child-width-auto uk-text-center uk-grid-match uk-margin-auto" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-html5 fa-2x"></i><br>
+                        <span class="skillsText">HTML5</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-css3-alt fa-2x"></i><br>
+                        <span class="skillsText">CSS3</span>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-js fa-2x"></i><br>
+                        <span class="skillsText">JavaScript</span>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-node fa-2x"></i><br>
+                        <span class="skillsText">Node.js</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-bootstrap fa-2x"></i><br>
+                        <span class="skillsText">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-uikit fa-2x"></i><br>
+                        <span class="skillsText">UIKit</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <img src="https://i.imgur.com/fuR0NP1.png">
+                        <span class="skillsText">Materialize</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <img src="https://i.imgur.com/UgjpLhL.png">
+                        <span class="skillsText">jQuery</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-react fa-2x"></i><br>
+                        <span class="skillsText">React</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <img src="https://i.imgur.com/2oeSzHw.png">
+                        <br>
+                        <span class="skillsText">MySQL</span>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <img src="https://i.imgur.com/yJBd94J.png">
+                        <br>
+                        <span class="skillsText">MongoDB</span>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fas fa-database fa-2x"></i><br>
+                        <span class="skillsText">IndexedDB</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-npm fa-2x"></i><br>
+                        <span class="skillsText">npm</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fas fa-terminal fa-2x"></i><br>
+                        <span class="skillsText">Terminal</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-github-square fa-2x"></i><br>
+                        <span class="skillsText">GitHub</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <img src="https://i.imgur.com/Zx9gsEp.png">
+                        <span class="skillsText">Heroku</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <img src="https://i.imgur.com/1cLrZT0.png"><br>
+                        <span class="skillsText">VSCode</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-adobe fa-2x"></i><br>
+                        <span class="skillsText" id="adobeText">Suite</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-magento fa-2x"></i><br>
+                        <span class="skillsText">Magento</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-mailchimp fa-2x"></i><br>
+                        <span class="skillsText">Mailchimp</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Portfolio -->
+    <div class="uk-section" id="portfolio">
+        <div id="projects" class="uk-container">
+
+            <h3 class="uk-text-center"> PORTFOLIO </h3>
+            <hr class="uk-divider-icon">
+            <br>
+
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="https://i.imgur.com/5lFmFle.jpg" alt="iEat">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">iEat</h3>
+                            <p>An app that generates a weekly meal plan with recipe instructions and list of all
+                                ingredients needed to go shopping.</p>
+                            <p uk-margin>
+                                <button class="uk-button uk-button-default"><a target="_blank"
+                                        href="https://github.com/jekwanjk/Project2">
+                                        Code
+                                    </a></button>
+                                <button class="uk-button uk-button-default">
+                                    <a target="_blank" href="https://ieat-jk.herokuapp.com/">
+                                        Deployment</a></button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="https://i.imgur.com/9UtzfPJ.png" alt="EventScope">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">EventScope</h3>
+                            <p>An app that will find local events filtered by the users's budget.</p>
+                            <p uk-margin>
+                                <button class="uk-button uk-button-default"><a target="_blank"
+                                        href="https://github.com/airazabal92/project-1">
+                                        Code
+                                    </a></button>
+                                <button class="uk-button uk-button-default">
+                                    <a target="_blank" href="https://airazabal92.github.io/project-1/">
+                                        Deployment</a></button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-media-top">
+                            <img src="https://i.imgur.com/uFcUp6V.png" alt="Weather Dashboard">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Weather Dashboard</h3>
+                            <p>An application that displays the weather for multiple cities.</p>
+
+                            <p uk-margin>
+                                <button class="uk-button uk-button-default"><a target="_blank"
+                                        href="https://github.com/airazabal92/Weather-Dashboard">
+                                        Code
+                                    </a></button>
+                                <button class="uk-button uk-button-default">
+                                    <a target="_blank" href="https://airazabal92.github.io/Weather-Dashboard/">
+                                        Deployment</a></button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--Contact -->
+    <div class="uk-section uk-section-muted">
+
+        <div id="projects" class="uk-container">
+            <h3 class="uk-text-center"> LET'S CONNECT! </h3>
+            <hr class="uk-divider-icon">
+            <p></p>
+        </div>
+
+    </div>
+
+
+
+    <!-- About Me Text
+    <div class="uk-section uk-section-muted uk-preserve-color">
+        <div class="uk-container">
+
+            <div class="uk-grid-match uk-child-width-expand@s" uk-grid>
+                <div>
+                    <div id="profilePicture" class="uk-card uk-card-default uk-width-1-2 uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div id="aboutMe" class="uk-card uk-card-default uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Dynamic typing -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+
+
+</body>
+
+</html>
