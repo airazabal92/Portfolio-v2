@@ -18,6 +18,7 @@ a {
   width: 65%;
   margin: auto;
   margin-bottom: 40px;
+  font-weight: 280;
 }
 
 #skillsIntro {
@@ -43,6 +44,7 @@ h1 span {
 h2 {
   font-size: 28px;
   font-weight: 280;
+  color: #a56b89;
 }
 
 h3 {
@@ -77,14 +79,17 @@ h3 {
 /* Basic Info*/
 
 #basicInfo {
-  width: 45%;
-  margin-left: 50%;
-  margin-top: 2%;
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+  margin-top: -50px;
+  font-weight: 280;
 }
 /* About Me Section */
 
 #aboutSection {
-  margin-top: -171px;
+  margin-top: -100px;
+  background-image: url(https://i.imgur.com/IM845T4.jpg);
 }
 
 #profilePicture {
@@ -120,12 +125,37 @@ h3 {
 
 #portfolio {
   background-color: #bdcfcf;
+  font-weight: 280;
 }
 
 #projects {
   width: 85%;
   margin: auto;
   margin-top: 30px;
+}
+
+#aboutInfo {
+  margin-left: 7%;
+  max-width: 300px;
+  min-width: 300px;
+  float: left;
+  font-weight: 280;
+  font-size: 16px;
+}
+
+#aboutInfo p {
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+.infoTitle {
+  color: #a56b89;
+  font-weight: 400;
+}
+
+.headers {
+  color: #a56b89;
+  font-size: 28px;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 640px) {
