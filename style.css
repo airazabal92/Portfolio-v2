@@ -1,12 +1,14 @@
 /* Introduction text  */
 
 a:hover {
-  color: #bdcfcf;
+  color: #656565;
   text-decoration: none;
+  font-weight: 380;
 }
 
 a {
-  color: #656565;
+  color: #a56b89;
+  font-weight: 380;
 }
 
 #aboutSub {
@@ -123,7 +125,7 @@ h3 {
   line-height: -1.5 !important;
 }
 
-#portfolio {
+#portfolioSection {
   background-color: #bdcfcf;
   font-weight: 280;
 }
@@ -156,14 +158,104 @@ h3 {
   color: #a56b89;
   font-size: 28px;
   font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
-@media only screen and (max-width: 640px) {
-  #profilePicture {
-    margin: auto;
+.headerWhite {
+  color: azure;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.skillIcon {
+  border-top: 2px solid #bdcfcf;
+}
+
+#connectText {
+  width: 500px;
+  margin: auto;
+}
+
+#footerSection {
+  text-align: center;
+  color: lightgray;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 989px) {
+  #imageProfile {
+    margin-top: 30px;
+    position: static;
+    margin-left: 40%;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 6px solid #f8f8f8;
+    outline-offset: -3px;
+    z-index: auto;
   }
 
   #aboutMe {
     margin: auto;
+  }
+
+  #aboutInfo {
+    margin-top: 90px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #basicInfo {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  #imageProfile {
+    position: static;
+    margin-left: 40%;
+    width: 165px;
+    z-index: auto;
+  }
+
+  #aboutMe {
+    margin: auto;
+  }
+
+  #aboutInfo {
+    margin-top: 90px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #basicInfo {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 90%;
+  }
+
+  #skillsInfo {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  #imageProfile {
+    position: static;
+    margin-left: 35%;
+    width: 165px;
+    z-index: auto;
+  }
+
+  #subHeaderHolder {
+    margin-top: 108px;
   }
 }

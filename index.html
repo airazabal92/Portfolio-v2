@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Amanda Irazabal | Portfolio</title>
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
 
@@ -29,8 +29,8 @@
                 <div class="uk-navbar-center-left">
                     <div>
                         <ul class="uk-navbar-nav">
-                            <li class="uk-active"><a href="#">About</a></li>
-                            <li><a href="#">Skills</a></li>
+                            <li class="uk-active"><a href="#aboutSection">About</a></li>
+                            <li><a href="#skillsSection">Skills</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
                 <div class="uk-navbar-center-right">
                     <div>
                         <ul class="uk-navbar-nav">
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#portfolioSection">Portfolio</a></li>
+                            <li><a href="#contactSection">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,57 +52,18 @@
     <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
         data-src="https://i.imgur.com/joY9wei.jpg" uk-img style="height:550px; background-position: bottom;
         ">
-        <h1>Hello! I'm <br><span id="subHeader"></span></h1>
+        <h1 id="subHeaderHolder">Hello! I'm <br><span id="subHeader"></span></h1>
     </div>
+
 
     <!-- Profile Image -->
     <img id="imageProfile"
         data-src="https://avatars3.githubusercontent.com/u/60761756?s=460&u=419830dd8866a10759da6bc28d4add9c398578c5&v=4"
         width="15%" alt="Amanda Irazabal profile image" uk-img>
 
-    <!-- About Section
-    <div id="aboutSection" class=" uk-column-span uk-background-image@m uk-background-cover"
-        style="width: 100%; height: 400px; background-image: url(https://i.imgur.com/IM845T4.jpg);">
-
-        <div id="basicInfo" class="uk-card uk-card-default">
-            <div class=" uk-card-header">
-                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                    <div class="uk-width-auto">
-                        <span uk-icon="icon: info"></span>
-                    </div>
-                    <div class="uk-width-expand">
-                        <h2 class="uk-card-title uk-margin-remove-bottom">Full Stack Developer
-                        </h2>
-                        <p id="aboutSub" class="uk-text-meta uk-margin-remove-top fontCustomColor">UX/UI
-                            Design
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-card-body">
-                <p>I have an eye for UX/UI design and am passionate about combining aesthetics, usability, and
-                    functionality to create visually stunning and user-friendly websites and applications. I’m a self
-                    motivated, organized, quick-learning team player that will make a great addition to any team. </p>
-            </div>
-
-            <div class="uk-card-footer uk-text-right">
-                <a href="https://github.com/airazabal92" class="uk-icon-button" uk-icon="github"></a>
-                <a href="" class="uk-icon-button" uk-icon="linkedin"></a>
-            </div>
-        </div>
-
-        <div id="aboutInfo">
-            <p>I have an eye for UX/UI design and am passionate about combining aesthetics, usability, and
-                functionality to create visually stunning and user-friendly websites and applications. I’m a self
-                motivated, organized, quick-learning team player that will make a great addition to any team. </p>
-        </div>
-
-    </div> -->
-
-    <!-- <hr class="uk-divider-icon"> -->
 
 
-
+    <!-- About Section -->
     <div id="aboutSection" class="uk-section">
         <div class="uk-container">
 
@@ -115,8 +76,8 @@
                 <p><span uk-icon="icon: location ; ratio: 1"></span><span class="infoTitle"> Location:</span> Newark, NJ
                 </p>
                 <hr>
-                <p><span uk-icon="icon: bolt ; ratio: 1"></span><span class="infoTitle"> Hobbies:</span> Yoga, Reading,
-                    Gaming, </p>
+                <p><span uk-icon="icon: bolt ; ratio: 1"></span><span class="infoTitle"> Hobbies:</span> Yoga, Design,
+                    Gaming </p>
             </div>
             <div id="basicInfo" class="uk-card uk-card-default">
                 <div class=" uk-card-header">
@@ -143,8 +104,10 @@
                 </div>
 
                 <div class="uk-card-footer uk-text-right">
-                    <a href="https://github.com/airazabal92" class="uk-icon-button" uk-icon="github"></a>
-                    <a href="" class="uk-icon-button" uk-icon="linkedin"></a>
+                    <a href="https://github.com/airazabal92" target="_blank" class="uk-icon-button"
+                        uk-icon="github"></a>
+                    <a href="https://www.linkedin.com/in/amandairazabal/" target="_blank" class="uk-icon-button"
+                        uk-icon="linkedin"></a>
                 </div>
             </div>
 
@@ -154,11 +117,8 @@
 
     <!--Skills-->
 
-    <div class="uk-section uk-section-muted">
+    <div id="skillsSection" class="uk-section uk-section-muted">
         <div class="uk-container">
-
-            <!-- <div style="text-align:center"><i class="fas fa-align-center fa-lg"></i>
-            </div> -->
 
             <h3 class="uk-text-center headers"> Skills </h3>
             <hr class="uk-divider-icon">
@@ -185,6 +145,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-html5 fa-2x"></i><br>
                         <span class="skillsText">HTML5</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -192,6 +153,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-css3-alt fa-2x"></i><br>
                         <span class="skillsText">CSS3</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -200,6 +162,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-js fa-2x"></i><br>
                         <span class="skillsText">JavaScript</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -208,6 +171,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-node fa-2x"></i><br>
                         <span class="skillsText">Node.js</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -215,6 +179,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-bootstrap fa-2x"></i><br>
                         <span class="skillsText">Bootstrap</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -222,6 +187,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-uikit fa-2x"></i><br>
                         <span class="skillsText">UIKit</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -229,6 +195,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <img src="https://i.imgur.com/fuR0NP1.png">
                         <span class="skillsText">Materialize</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -236,6 +203,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <img src="https://i.imgur.com/UgjpLhL.png">
                         <span class="skillsText">jQuery</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -243,6 +211,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-react fa-2x"></i><br>
                         <span class="skillsText">React</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -251,6 +220,7 @@
                         <img src="https://i.imgur.com/2oeSzHw.png">
                         <br>
                         <span class="skillsText">MySQL</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -260,6 +230,7 @@
                         <img src="https://i.imgur.com/yJBd94J.png">
                         <br>
                         <span class="skillsText">MongoDB</span>
+                        <hr class="skillIcon">
                     </div>
 
                 </div>
@@ -268,6 +239,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fas fa-database fa-2x"></i><br>
                         <span class="skillsText">IndexedDB</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -275,6 +247,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-npm fa-2x"></i><br>
                         <span class="skillsText">npm</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -282,6 +255,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fas fa-terminal fa-2x"></i><br>
                         <span class="skillsText">Terminal</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -289,6 +263,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-github-square fa-2x"></i><br>
                         <span class="skillsText">GitHub</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -296,6 +271,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <img src="https://i.imgur.com/Zx9gsEp.png">
                         <span class="skillsText">Heroku</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -303,6 +279,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <img src="https://i.imgur.com/1cLrZT0.png"><br>
                         <span class="skillsText">VSCode</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -310,6 +287,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-adobe fa-2x"></i><br>
                         <span class="skillsText" id="adobeText">Suite</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -317,6 +295,7 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-magento fa-2x"></i><br>
                         <span class="skillsText">Magento</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
@@ -324,20 +303,21 @@
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
                         <i class="fab fa-mailchimp fa-2x"></i><br>
                         <span class="skillsText">Mailchimp</span>
+                        <hr class="skillIcon">
                     </div>
                 </div>
 
             </div>
         </div>
-
-
+        <br>
+        <br>
     </div>
 
     <!-- Portfolio -->
-    <div class="uk-section" id="portfolio">
+    <div class="uk-section" id="portfolioSection">
         <div id="projects" class="uk-container">
 
-            <h3 class="uk-text-center" style="color:azure; font-size:28px"> Portfolio </h3>
+            <h3 class="uk-text-center headerWhite"> Portfolio </h3>
             <hr class="uk-divider-icon">
             <br>
 
@@ -410,44 +390,31 @@
                 </div>
 
             </div>
-
         </div>
-
-
+        <br>
+        <br>
     </div>
 
     <!--Contact -->
-    <div class="uk-section uk-section-muted">
+    <div class="uk-section uk-section-muted" id="contactSection">
 
         <div id="projects" class="uk-container">
             <h3 class="uk-text-center headers"> Let's Connect! </h3>
             <hr class="uk-divider-icon">
-            <p></p>
+            <p id="connectText">I'm excited to continue to grow as a developer and welcome any new projects! If you'd
+                like to get in
+                touch, message me on <a href="https://www.linkedin.com/in/amandairazabal/">LinkedIn</a> or <a
+                    href="mailto:amanda.irazabal@gmail.com">amanda.irazabal@gmail.com</a>.</p>
         </div>
+        <br>
+
 
     </div>
 
-
-
-    <!-- About Me Text
-    <div class="uk-section uk-section-muted uk-preserve-color">
-        <div class="uk-container">
-
-            <div class="uk-grid-match uk-child-width-expand@s" uk-grid>
-                <div>
-                    <div id="profilePicture" class="uk-card uk-card-default uk-width-1-2 uk-card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div>
-                    <div id="aboutMe" class="uk-card uk-card-default uk-card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div> -->
+    <!--Footer -->
+    <div class="uk-section-muted" id="footerSection">
+        © 2020 Amanda Irazabal
+    </div>
 
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
