@@ -173,7 +173,7 @@ h3 {
 }
 
 #connectText {
-  width: 500px;
+  width: 60%;
   margin: auto;
 }
 
@@ -257,5 +257,9 @@ h3 {
 
   #subHeaderHolder {
     margin-top: 108px;
+  }
+
+  #connectText {
+    width: 80%;
   }
 }
